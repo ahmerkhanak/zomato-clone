@@ -1,0 +1,500 @@
+body {
+    margin: 0;
+}
+
+
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.logo {
+    display: flex;
+    margin-top: 8px;
+}
+
+.fa-solid, .fas{
+    margin-top: 6px;
+    font-size: 22px;
+}
+.search {
+    display: flex;
+    padding: 10px 10px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 10px;
+}
+
+.searchbox1 {
+    border: 0;
+    font-size: 0.9rem;
+}
+
+.searchbox2 {
+    border: 0;
+    font-size: 0.9rem;
+    padding: 8px 120px 8px 10px;
+}
+
+
+
+.loginul {
+    list-style: none;
+}
+
+.loginbtn {
+    display: flex;
+    font-family: Helvetica;
+    font-size: 20px;
+    display: inline;
+    margin-right: 40px;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+}
+
+.path {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 75px;
+}
+
+.pathul {
+    font-family: sans-serif;
+    font-size: 13px;
+    list-style: none;
+    font-weight: 300;
+    color: rgba(130, 130, 130, 0.739);
+    word-spacing: 5px;
+    cursor: pointer;
+}
+
+.pathli {
+    display: inline;
+}
+
+.pathli4 {
+    display: inline;
+    color: rgba(130, 130, 130, 0.445);
+}
+
+.sections {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 110px;
+    margin-top: 10px;
+
+}
+
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+}
+
+.imgdine {
+    padding-top: 12px;
+}
+
+.secimg {
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(229, 243, 243);
+    height: 4rem;
+    width: 4rem;
+}
+
+.sec1h2 {
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ef4f5f;
+    padding-left: 10px;
+    padding-top: 3px;
+
+}
+
+.sec2 {
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec3 {
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-collection {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 110px;
+    background-color: #f8f8f8;
+}
+
+.coll-h2 {
+    display: flex;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.815);
+    font-family: sans-serif;
+}
+
+.coll-text {
+    color: #363636a7;
+    font-family: sans-serif;
+
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 160px;
+}
+
+.h6text {
+    font-size: 16px;
+    text-decoration: none;
+    color: #ef4f5f;
+}
+
+.resturantcards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    width: 1100px;
+    column-gap: 20px;
+    padding-bottom: 40px;
+
+
+}
+
+.box1 {
+    display: flex;
+    position: relative;
+    width: 260px;
+    height: 320px;
+    
+}
+
+.box2 {
+    display: flex;
+    position: relative;
+    width: 260px;
+    height: 320px;
+    
+}
+
+.box3 {
+    display: flex;
+    position: relative;
+    width: 260px;
+    height: 320px;
+    
+}
+
+.box4 {
+    display: flex;
+    position: relative;
+    width: 260px;
+    height: 320px;
+    
+}
+
+.resturantcards p {
+    position: absolute;
+    color: white;
+    bottom: 40px;
+    left: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.resturantcards h6 {
+    position: absolute;
+    color: white;
+    bottom: -20px;
+    left: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.boxes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 67%;
+    column-gap: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    
+    
+    
+}
+
+.b1, .b2, .b3, .b4, .b5 , .b6, .b7{
+    display: flex;
+    border: 1px solid;
+    padding: 10px 10px 10px  10px;
+    font-size: 12px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color:  rgba(41, 39, 39, 0.565);
+    cursor: pointer;
+}
+
+.offer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 251px;
+}
+
+.offersubsec {
+    width: 100%;
+    position: absolute;
+    /* object-fit: cover; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.headingresturants {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 110px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+.restaurantcard2 {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+.card1 {
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+.cardimg {
+    border-radius: 15px;
+    
+}
+
+.cardimgtxt {
+    
+    position: absolute;
+    top: 50%; 
+    color: white;     
+    background: linear-gradient(90deg, rgb(17, 85, 203) 0%, rgb(83, 140, 238) 25%, rgb(17, 85, 203) 50%, rgba(17, 85, 203, 0.8) 80%, rgba(17, 85, 203, 0) 100%);
+    padding: 8px;
+    width: 190px;
+    
+}
+
+.fa-solid, .fas {
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.cardtitleitems {
+    width: 94%; /* Ensure the container takes full width */
+    margin-top: 5px;
+
+}
+
+.cardtitle {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.cardtitle h4, 
+.cardtitleicontxt {
+    
+    font-family: sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+.cardtitleicontxt {
+    
+    display: flex;
+    align-items: center; 
+    border: 1px solid ;
+    padding-left: 10px;
+    background-color: rgb(36, 150, 63);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.fa-star {
+    font-size: 10px;
+    margin-top: -2px;
+}
+
+.cardtitle2 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    color: rgba(59, 59, 59, 0.684);
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.cardtitle3 {
+    margin-top: -20px;
+}
+
+.cardtitle3 {
+    
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        color: rgba(59, 59, 59, 0.684);
+        font-size: 14px;
+        font-family: sans-serif;
+    
+}
+
+.cardtitle4 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    color: rgba(152, 4, 4, 0.684);
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: -15px;
+}
+
+.card2, .card3, .card4, .card5, .card6 {
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+.card4, .card5, .card6 {
+    padding-bottom: 40px;
+}
+
+.options {
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 110px;
+    background-color: #f8f8f8;
+    padding-bottom: 20px;
+}
+
+.h2option {
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgba(22, 22, 22, 0.787);   
+}
+
+.op2 {
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    padding: 10px 20px 10px 20px;
+    width: 85%;
+    border-radius: 6px;
+}
+
+footer {
+
+    margin-top: 10px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 110px;
+    padding-bottom: 20px;
+
+}
+
+.footertop {
+    display: flex;
+    align-items: center;
+}
+
+.logofooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensure vertical alignment */
+    width: 87%
+}
+
+.ulf{
+    list-style: none;
+}
+
+.lif {
+    display: inline;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.606);
+    color: rgba(0, 0, 0, 0.784);
+    padding: 8px 20px 8px 20px;
+}
+
+.datamain {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding: 20px; 
+    justify-content: flex-start;
+    column-gap: 120px;
+}
+
+.data2 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.uldata2 {
+    list-style: none;
+    padding-left: 0px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.553);
+}
+
+.uldata5 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: -40px;
+    
+
+}
+.data5li {
+    
+    
+    display: inline;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+}
+
+.datadata5 {}
